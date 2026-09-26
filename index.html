@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare | Clínica Veterinaria</title>
+    <meta name="description" content="Cuidado compasivo y experto para tus mascotas. Clínica veterinaria con servicios completos.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-paw"></i> PetCare
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary nav-btn">Reservar Cita</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in-up">Cuidado Excepcional Para Tus Mejores Amigos</h1>
+            <p class="fade-in-up delay-1">Brindamos servicios veterinarios de primer nivel con un enfoque compasivo, asegurando que tus mascotas vivan una vida larga, feliz y saludable.</p>
+            <div class="hero-buttons fade-in-up delay-2">
+                <a href="#services" class="btn btn-primary">Nuestros Servicios</a>
+                <a href="#contact" class="btn btn-secondary">Contactar Ahora</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Servicios Médicos</h2>
+                <p>Ofrecemos atención integral en instalaciones de última generación.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    <h3>Consultas Generales</h3>
+                    <p>Chequeos preventivos y diagnósticos completos para mantener a tu mascota en óptimas condiciones de salud.</p>
+                </div>
+                
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-syringe"></i>
+                    </div>
+                    <h3>Vacunación</h3>
+                    <p>Programas de inmunización adaptados a la edad y estilo de vida de tu mascota para prevenir enfermedades.</p>
+                </div>
+                
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-tooth"></i>
+                    </div>
+                    <h3>Odontología</h3>
+                    <p>Limpiezas dentales, extracciones y cuidado bucal preventivo para evitar problemas sistémicos.</p>
+                </div>
+                
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-scissors"></i>
+                    </div>
+                    <h3>Cirugía Segura</h3>
+                    <p>Quirófanos equipados con tecnología avanzada y monitorización continua para procedimientos seguros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats section">
+        <div class="container stats-container">
+            <div class="stat-item">
+                <i class="fa-solid fa-heart-pulse"></i>
+                <h3 class="counter" data-target="1500">0</h3>
+                <p>Mascotas Sanadas</p>
+            </div>
+            <div class="stat-item">
+                <i class="fa-solid fa-user-doctor"></i>
+                <h3 class="counter" data-target="15">0</h3>
+                <p>Veterinarios Expertos</p>
+            </div>
+            <div class="stat-item">
+                <i class="fa-solid fa-award"></i>
+                <h3 class="counter" data-target="12">0</h3>
+                <p>Años de Experiencia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container about-container">
+            <div class="about-image reveal-left">
+                <img src="https://images.unsplash.com/photo-1596272875729-ed2ff7d6d9c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Veterinario examinando un perro">
+                <div class="experience-badge">
+                    <span>12+</span> Años Cuidando Mascotas
+                </div>
+            </div>
+            <div class="about-content reveal-right">
+                <h2>Pasión Por El Bienestar Animal</h2>
+                <p>En PetCare, no solo tratamos mascotas; tratamos a miembros de la familia. Nuestro equipo de profesionales altamente capacitados está dedicado a proporcionar el más alto nivel de atención médica veterinaria junto con compasión y empatía.</p>
+                <p>Entendemos el vínculo especial que compartes con tu mascota, y nuestro objetivo es ser tu socio de confianza en su cuidado médico durante todas las etapas de su vida.</p>
+                <ul class="about-features">
+                    <li><i class="fa-solid fa-check"></i> Atención de Emergencia 24/7</li>
+                    <li><i class="fa-solid fa-check"></i> Laboratorio Propio</li>
+                    <li><i class="fa-solid fa-check"></i> Instalaciones Modernas</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <i class="fa-solid fa-paw"></i> PetCare
+                </a>
+                <p>Brindando amor y cuidado experto para tus queridas mascotas en un ambiente cálido y profesional.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h3>Contáctanos</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Av. Principal 123, Ciudadela</p>
+                <p><i class="fa-solid fa-phone"></i> +34 123 456 789</p>
+                <p><i class="fa-solid fa-envelope"></i> info@petcare.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 PetCare Clínica Veterinaria. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
